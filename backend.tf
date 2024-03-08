@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "eks-asset"
+    bucket = "asset-test-my-bucket"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
