@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "eks-freezy"
+    bucket = "eks-asset"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
